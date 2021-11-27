@@ -42,7 +42,7 @@ const HomePage = (props) => {
     return (
         <>
             <MeetupList meetups={props.meetups} />
-            <h1>{props.volume}</h1>
+            <h1 className="ss">{props.volume}</h1>
         </>
     );
 };
